@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Ejercicio1_AMR</string>
+    <string name="app_name" translatable="false">Ejercicio1_AMR</string>
+    <string name="horoscoteca">¡Horoscoteca!</string>
+    <string name="ver_datos">ver datos</string>
+    <string name="ingresa_tu_correo_electronico">Ingresa tu correo electronico</string>
+    <string name="ejemplo_gmail_com">Ejemplo@gmail.com</string>
+    <string name="_000000000">000000000</string>
+    <string name="ingresa_tu_numero_de_cuenta_unam">Ingresa tu numero de cuenta UNAM</string>
+    <string name="dia">DIA</string>
+    <string name="mes">MES</string>
+    <string name="anio">AÑO</string>
+    <string name="dd">DD</string>
+    <string name="ingresa_tu_fecha_de_nacimiento">Ingresa tu fecha de nacimiento</string>
+    <string name="espaniol">Español</string>
+    <string name="mm">MM</string>
+    <string name="yyyy">YYYY</string>
+    <string name="nombre_s">Nombre(s)</string>
+    <string name="apellido_paterno">Apellido Paterno</string>
+    <string name="apellido_materno">Apellido Materno</string>
+    <string name="ingresa_tus_datos_y_conoce_tu_signo_zodiacal">Ingresa tus datos y conoce tu signo zodiacal</string>
+    <string name="indique_su_idioma_de_preferencia">Indique su idioma de preferencia</string>
+    <string name="ingles">Ingles</string>
+    <string name="ingresa_valor">Ingresa valor faltante</string>
+    <string name="se_requiere_nombre">Ingresa valor faltante</string>
+    <string name="se_requiere_apellido">se requiere que ingreses almenos un apellido en este apartado</string>
 </resources>

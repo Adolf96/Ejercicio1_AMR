@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="horoscoteca">¡Horoscoteca!</string>
+    <string name="ver_datos">see data</string>
+    <string name="ingresa_tu_correo_electronico">Enter your emailo</string>
+    <string name="ejemplo_gmail_com">Example@gmail.com</string>
+    <string name="_000000000">000000000</string>
+    <string name="ingresa_tu_numero_de_cuenta_unam">Enter your UNAM account number</string>
+    <string name="dia">DAY</string>
+    <string name="mes">MONTH</string>
+    <string name="anio">YEAR</string>
+    <string name="dd">DD</string>
+    <string name="ingresa_tu_fecha_de_nacimiento">Enter your date of birth</string>
+    <string name="espaniol">Spanish</string>
+    <string name="mm">MM</string>
+    <string name="yyyy">YYYY</string>
+    <string name="nombre_s">Name(s)</string>
+    <string name="apellido_paterno">Paternal surname</string>
+    <string name="apellido_materno">Maternal surname</string>
+    <string name="ingresa_tus_datos_y_conoce_tu_signo_zodiacal">Enter your data and know your zodiac sign</string>
+    <string name="indique_su_idioma_de_preferencia">Indicate your preferred language</string>
+    <string name="ingles">English</string>
+    <string name="ingresa_valor">enter missing value</string>
+    <string name="se_requiere_nombre">you are required to enter your name(s)</string>
+    <string name="se_requiere_apellido">You are required to enter at least one last name in this section</string>
+</resources>
