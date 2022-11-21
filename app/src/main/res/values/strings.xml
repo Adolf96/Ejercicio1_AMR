@@ -21,6 +21,33 @@
     <string name="indique_su_idioma_de_preferencia">Indique su idioma de preferencia</string>
     <string name="ingles">Ingles</string>
     <string name="ingresa_valor">Ingresa valor faltante</string>
-    <string name="se_requiere_nombre">Ingresa valor faltante</string>
+    <string name="se_requiere_nombre">se requiere que ingreses tu nombre o nombres en este apartado</string>
     <string name="se_requiere_apellido">se requiere que ingreses almenos un apellido en este apartado</string>
+    <string name="horoscoteca2">¡Horoscoteca!</string>
+    <string name="version">versión 1.1.1</string>
+    <string name="tu_correo_electronico_es">Tu correo electronico es:</string>
+    <string name="hola">¡¡¡¡¡HOLA!!!!!</string>
+    <string name="tu_numero_de_cuenta_es">Tu numero de cuenta es:</string>
+    <string name="tu_edad_es">Tu edad es:</string>
+    <string name="tu_signo_del_zodiaco_es">Tu signo del zodiaco es:</string>
+    <string name="tu_animal_en_el_horoscopo_chino_es">Tu animal en el horoscopo chino es:</string>
+    <string name="Terminar">Terminar</string>
+    <string name="se_requiere_dia">se requiere que ingreses el numero de su dia de nacimiento, solo dos digitos, validos de (01 a 31)</string>
+    <string name="se_requiere_mes">se requiere que ingreses el numero del mes de su nacimiento, solo dos digitos,validos de (01 a 12)</string>
+    <string name="se_requiere_anio">se requiere que ingreses el numero del año de su nacimiento, con cuatro digitos, validos de (1960 hasta la actualidad)</string>
+    <string name="se_requiere_cuenta">se requiere que ingrese su numero de cuenta UNAM de nueve digitos, ejemplo: (416586520)</string>
+    <string name="se_requiere_correo">se requiere que ingrese su correo electronico como lo muestra el ejemplo</string>
+    <string name="rata">rata</string>
+    <string name="buey">buey</string>
+    <string name="tigre">tigre</string>
+    <string name="conejo">conejo</string>
+    <string name="dragon">dragon</string>
+    <string name="serpiente">serpiente</string>
+    <string name="caballo">caballo</string>
+    <string name="cabra">cabra</string>
+    <string name="mono">mono</string>
+    <string name="gallo">gallo</string>
+    <string name="perro">perro</string>
+    <string name="cerdo">cerdo</string>
+
 </resources>

@@ -23,4 +23,31 @@
     <string name="ingresa_valor">enter missing value</string>
     <string name="se_requiere_nombre">you are required to enter your name(s)</string>
     <string name="se_requiere_apellido">You are required to enter at least one last name in this section</string>
+    <string name="horoscoteca2">¡Horoscoteca!</string>
+    <string name="version">version 1.1.1</string>
+    <string name="tu_correo_electronico_es">Your email is:</string>
+    <string name="hola">¡¡¡¡¡HELLO!!!!!</string>
+    <string name="tu_numero_de_cuenta_es">Your account number is:</string>
+    <string name="tu_edad_es">Your age is:</string>
+    <string name="tu_signo_del_zodiaco_es">Your zodiac sign is:</string>
+    <string name="tu_animal_en_el_horoscopo_chino_es">Your animal in the Chinese zodiac is:</string>
+    <string name="Terminar">Finish</string>
+    <string name="se_requiere_dia">You are required to enter the number of your day of birth only two digits, valid from (01 to 31)</string>
+    <string name="se_requiere_mes">You are required to enter the number of the month of your birth only two digits, valid from (01 to 12)</string>
+    <string name="se_requiere_anio">You are required to enter the number of the year of your birth, with four digits, valid from (1960 to present)</string>
+    <string name="se_requiere_cuenta">You are required to enter your nine-digit UNAM account number, example: (416586520)</string>
+    <string name="se_requiere_correo">You are required to enter your email as shown in the example</string>
+    <string name="rata">rat</string>
+    <string name="buey">ox</string>
+    <string name="tigre">tiger</string>
+    <string name="conejo">rabbit</string>
+    <string name="dragon">dragon</string>
+    <string name="serpiente">snake</string>
+    <string name="caballo">horse</string>
+    <string name="cabra">goat</string>
+    <string name="mono">monkey</string>
+    <string name="gallo">rooster</string>
+    <string name="perro">dog</string>
+    <string name="cerdo">pig</string>
+
 </resources>

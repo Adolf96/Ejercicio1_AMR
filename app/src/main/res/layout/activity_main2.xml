@@ -7,22 +7,40 @@
     android:background="@drawable/fondomistico"
     tools:context=".MainActivity2">
 
-    <ImageView
-        android:id="@+id/imgani"
+    <Button
+        android:id="@+id/term"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="@font/aclonica"
+        android:onClick="click"
+        android:text="@string/Terminar"
+        android:textColor="#D1C4E9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.905"
+        app:layout_constraintVertical_bias="0.961" />
+
+    <ImageView
+        android:id="@+id/imgani"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.645"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872"
+        tools:ignore="ImageContrastCheck"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/animal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
         android:textColor="#FEFEFE"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
-        android:text="Tu animal en el horoscopo chino es:"
+        android:text="@string/tu_animal_en_el_horoscopo_chino_es"
         android:textColor="#FEFEFE"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,7 +87,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
-        android:text="Tu signo del zodiaco es:"
+        android:text="@string/tu_signo_del_zodiaco_es"
         android:textColor="#FEFEFE"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -93,6 +111,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.393"
+        tools:ignore="TextContrastCheck"
         tools:text="edad" />
 
     <TextView
@@ -100,7 +119,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
-        android:text="Tu edad es:"
+        android:text="@string/tu_edad_es"
         android:textColor="#FEFEFE"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -131,7 +150,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
-        android:text="Tu correo electronico es:"
+        android:text="@string/tu_correo_electronico_es"
         android:textColor="#FEFEFE"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -162,7 +181,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
-        android:text="Tu numero de cuenta es:"
+        android:text="@string/tu_numero_de_cuenta_es"
         android:textColor="#FEFEFE"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -170,14 +189,15 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.22" />
+        app:layout_constraintVertical_bias="0.22"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
-        android:text="¡¡¡¡¡HOLA!!!!!"
+        android:text="@string/hola"
         android:textColor="#FEFEFE"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -204,13 +224,13 @@
 
     <ImageView
         android:id="@+id/imgzo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintHorizontal_bias="0.628"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588"
+        app:layout_constraintVertical_bias="0.583"
         tools:srcCompat="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>
