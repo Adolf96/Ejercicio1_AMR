@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                     val an2 = binding.anio.text.toString()
                     val dit2 = binding.dia.text.toString()
                     val met2 = binding.mes.text.toString()
+                    val corre = binding.correo.text.toString()
                     val an3 = binding.anio.text.toString().toInt()
                     val dit3 = binding.dia.text.toString().toInt()
                     val met3 = binding.mes.text.toString().toInt()
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                     val taman2 = an2.length
                     val tamcuen2 = cuen2.length
 
-                    if(dit3 <= 31 && tamdi2 == 2 && met3 <= 12 && tamme2 == 2 && taman2 == 4 && an3 >= 1960 && an3 <= 2022 && tamcuen2 == 9){
+                    if(dit3 <= 31 && tamdi2 == 2 && met3 <= 12 && tamme2 == 2 && taman2 == 4 && an3 >= 1960 && an3 <= 2022 && tamcuen2 == 9 && isValidString(corre)){
 
                         val nom = binding.nombre.text.toString()
                         val apep = binding.apellidop.text.toString()
@@ -86,6 +87,9 @@ class MainActivity : AppCompatActivity() {
                         }else if(dit3 > 31 || tamdi2 != 2){
                             binding.dia.error = resources.getString(R.string.se_requiere_dia)
 
+                        }else{
+                            binding.correo.error = resources.getString(R.string.se_requiere_correo)
+
                         }
                         Toast.makeText(this@MainActivity,resources.getString(R.string.ingresa_valor_correcto), Toast.LENGTH_SHORT).show()
                     }
@@ -111,8 +115,9 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-
-
+    fun isValidString(str: String): Boolean{
+        return android.util.Patterns.EMAIL_ADDRESS.matcher(str).matches()
+    }
 
    fun setLocale(codigoIdioma: String){
         val config = resources.configuration
