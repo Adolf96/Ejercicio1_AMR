@@ -21,6 +21,7 @@
     <string name="indique_su_idioma_de_preferencia">Indique su idioma de preferencia</string>
     <string name="ingles">Ingles</string>
     <string name="ingresa_valor">Ingresa valor faltante</string>
+    <string name="ingresa_valor_correcto">Ingresa valor correcto</string>
     <string name="se_requiere_nombre">se requiere que ingreses tu nombre o nombres en este apartado</string>
     <string name="se_requiere_apellido">se requiere que ingreses almenos un apellido en este apartado</string>
     <string name="horoscoteca2">¡Horoscoteca!</string>
